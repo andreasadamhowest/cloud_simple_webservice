@@ -3,3 +3,8 @@ GET https://cloudfunctionapp-djcgaka2bfamf8bj.italynorth-01.azurewebsites.net/ap
 ###
 
 GET https://cloudfunctionapp-djcgaka2bfamf8bj.italynorth-01.azurewebsites.net/api/calculator/3/5
+
+
+###
+GET http://localhost:7071/api/calculator/3/5/subtract
+

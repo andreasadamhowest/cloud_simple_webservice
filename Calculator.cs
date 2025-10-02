@@ -15,7 +15,7 @@ public class Calculator
     }
 
     [Function("Calculator")]
-    public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "calculator/{a:int}/{b:int}/{operation:string}")] HttpRequest req, int a, int b, string operation)
+    public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "calculator/{a:int}/{b:int}/{operation}")] HttpRequest req, int a, int b, string operation)
     {
         int result = 0;
         if (operation == "add")
