@@ -1,3 +1,5 @@
 GET https://cloudfunctionapp-djcgaka2bfamf8bj.italynorth-01.azurewebsites.net/api/hello/world
 
 ###
+
+GET https://cloudfunctionapp-djcgaka2bfamf8bj.italynorth-01.azurewebsites.net/api/calculator/3/5
