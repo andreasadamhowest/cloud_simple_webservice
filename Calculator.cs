@@ -42,7 +42,12 @@ public class Calculator
         {
             return new BadRequestObjectResult("Invalid operation. Supported operations are add, subtract, multiply, divide.");
         }
+        CalculationResult calculationResult = new CalculationResult
+        {
+            Operation = operation,
+            Result = result
+        };
 
-        return new OkObjectResult($"The result of {operation}ing {a} and {b} is: {result}");
+        return new OkObjectResult(calculationResult);
     }
 }
