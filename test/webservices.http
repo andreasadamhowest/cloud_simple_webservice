@@ -12,3 +12,15 @@ GET http://localhost:7071/api/calculator/3/5/subtract
 
 https://cloudfunctionapp-djcgaka2bfamf8bj.italynorth-01.azurewebsites.net/api/calculator/3/5/subtract
 
+
+###
+
+POST http://localhost:7071/api/calculator
+Content-Type: application/json
+
+{
+    "a": 10,
+    "b": 5,
+    "operation": "multiply"
+}
+
